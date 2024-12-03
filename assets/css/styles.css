@@ -1,0 +1,29 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+html,
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1;
+}
+
+.profile-img {
+    border-radius: 50%;
+    max-width: 300px;
+    margin-bottom: 15px;
+}
+
+.publication-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.publication-list li {
+    margin-bottom: 10px;
+}
